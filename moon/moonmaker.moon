@@ -119,7 +119,7 @@ MoonMaker =
         table.insert(moonBaseNames, baseName)
 
       if #moonBaseNames > 0
-        deleteOrphanedLuaFiles(moonBaseNames, pluginRoot, verbose)
+        -- deleteOrphanedLuaFiles(moonBaseNames, pluginRoot, verbose)
 
         luaDir = Path.join(pluginRoot, 'lua')
 
